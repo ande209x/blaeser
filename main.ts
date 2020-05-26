@@ -76,7 +76,7 @@ let lys = 0
 let pligt = 0
 pligt += 0
 basic.forever(function () {
-    while (pligt < 1023) {
+    while (pligt < 1022) {
         pins.analogWritePin(AnalogPin.P0, pligt)
         pligt = pligt + 1
         basic.pause(10)
